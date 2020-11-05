@@ -10,7 +10,7 @@ export default defineConfig({
         splitChunks: {
           chunks: 'all',
           minSize: 30000,
-          minChunks: 3,
+          minChunks: 1,
           automaticNameDelimiter: '.',
           cacheGroups: {
             vendor: {
